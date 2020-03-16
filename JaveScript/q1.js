@@ -7,7 +7,8 @@ function greaterThan(arrayOfNumbers,x){
             counter= counter+1;
         }
     }
-    console.log(counter);
+    console.log("Q1:" + counter);
+    console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
     return counter;
 } 
 greaterThan([5,3,6,7,1,2,6],5);
